@@ -10,6 +10,7 @@ public class PrimitiveToString {
 
         String sl = "10";
         int i = Integer.parseInt(sl);
+        //double d = Double.parseDouble(sl);
         int j = Integer.valueOf(sl);
         System.out.println(i);
         System.out.println(j);

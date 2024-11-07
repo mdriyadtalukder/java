@@ -31,7 +31,7 @@ public class ArrayList2 {
         System.out.println(n.size());
         System.out.println(n.remove(0));
         System.out.println(n);
-        System.out.println(n.set(1, 55));
+        System.out.println(n.set(1, 55)); // 1 index er value replace kre 55 krbe.
         System.out.println(n);
         System.out.println(n.get(1));
 
