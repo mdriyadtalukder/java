@@ -4,6 +4,10 @@ public class FunctionMethod {
         return r;
     }
 
+    int st() {
+        return 1 + 3;
+    }
+
     static void name() {
         System.out.println("My name is riyad");
     }
@@ -15,8 +19,12 @@ public class FunctionMethod {
     public static void main(String[] args) {
         int a = 5;
         float f = 6.786f;
-        float result = sum(a, f);
+        FunctionMethod obj = new FunctionMethod();
+        int s = obj.st();
+        float result = sum(a, f); // a and f er copy gese function e..oikhn theke er value change krleo ta change
+                                  // hbe na ..
         System.out.println(result);
+        System.out.println(s);
         name();
         line("Who are you?");
     }
